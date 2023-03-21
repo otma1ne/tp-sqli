@@ -1,0 +1,33 @@
+.unpacked {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.unpacked input {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.unpacked li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.unpacked li .info,
+.unpacked li .price {
+    display: flex;
+    gap: 8px;
+}
+
+.unpacked li p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.unpacked .delete img {
+    width: 16px;
+    cursor: pointer;
+}

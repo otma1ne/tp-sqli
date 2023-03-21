@@ -1,0 +1,55 @@
+.packed {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.packed input {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.packed li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.packed li .info,
+.packed li .price {
+    display: flex;
+    gap: 8px;
+}
+
+.packed li p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.packed .delete img {
+    width: 16px;
+    cursor: pointer;
+}
+
+.packed button {
+    padding: 8px 16px;
+    background: coral;
+    color: white;
+    border: 1px solid coral;
+    transition: .3s ease-in-out;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.packed button:hover {
+    background: transparent;
+    color: coral
+}
+
+.packed .total {
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
+}

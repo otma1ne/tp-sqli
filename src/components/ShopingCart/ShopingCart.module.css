@@ -1,0 +1,48 @@
+.shopingCart {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.shopingCart .container {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 1px solid #ccc;
+    padding: 30px 20px;
+    border-radius: 10px;
+
+}
+
+.shopingCart .container form {
+    display: flex;
+    gap: 6px;
+}
+
+.shopingCart .container form input {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.shopingCart .container form input:nth-child(1) {
+    width: 140px;
+}
+
+.shopingCart .container form input:nth-child(2) {
+    width: 50px;
+    padding: 4px;
+}
+
+.shopingCart .container form button {
+    background-color: coral;
+    border: 1px solid coral;
+    color: white;
+    border-radius: 2px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
